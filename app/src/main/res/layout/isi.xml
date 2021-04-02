@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_marginTop="22dp"
+    tools:context=".Details">
+
+
+    <ImageView
+        android:id="@+id/image_detail"
+        android:layout_width="170dp"
+        android:layout_height="200dp">
+
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/judul_detail"
+        android:text="Judul : "
+        android:textSize="18sp"
+        android:layout_marginTop="80dp"
+        android:maxLines="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/image_detail"
+        android:layout_toEndOf="@+id/image_detail"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/isi_detail"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_detail"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:gravity="left"
+        android:textColor="#000"
+        android:text="Sinopsis :\n "/>
+
+
+
+
+</RelativeLayout>
